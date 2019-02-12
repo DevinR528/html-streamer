@@ -1,0 +1,21 @@
+{
+  "name": "templater",
+  "version": "0.0.1",
+  "description": "streaming templating",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "tap test/*.js"
+  },
+  "keywords": [
+    "steaming",
+    "template",
+    "engine"
+  ],
+  "author": "Devin Ragotzy <devin.ragotzy@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "tap": "^12.5.1"
+  },
+  "dependencies": {}
+}
