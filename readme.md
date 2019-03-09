@@ -2,7 +2,7 @@
 
 [![Travis][build-badge]][build]
 [![npm package][npm-badge]][npm]
-
+## still developing
 ## Streaming html response for each 'doc' from database
 just have an html file with your document props as inner text just like handlebars
 
