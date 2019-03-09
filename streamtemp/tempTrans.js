@@ -1,16 +1,5 @@
 const { Transform } = require('stream');
 
-class TemplateError extends Error {
-  constructor (msg, num) {
-    super('Streaming Template: ' + msg)
-    this.num = num
-  }
-
-  get name () {
-    return 'TempError'
-  }
-}
-
 /**
  *
  *
@@ -58,6 +47,7 @@ class TempTrans extends Transform {
           htmlTemp.close = htmlArr[i];
           this.endOfTemp = false;
           this.startOfTemp = true;
+          
           const saveObj = Object.assign({}, htmlTemp)
           this.templates.push(saveObj);
         }

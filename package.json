@@ -17,5 +17,9 @@
   "devDependencies": {
     "tap": "^12.5.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "css-prefix": "0.0.2",
+    "htmlparser2": "^3.10.1",
+    "trumpet": "^1.7.2"
+  }
 }
